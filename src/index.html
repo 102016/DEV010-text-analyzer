@@ -1,13 +1,55 @@
 <!DOCTYPE html>
+
 <html>
+  <head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
 
-<body>
-  <script src="index.js" type="module"></script>
-</body>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>Analizer</title>
+       
+  </head>
+    <body>
+
+<main>
+  <header>
+        <h1>Analizador de texto</h1>
+
+  </header>
+  <section>
+    <ul>
+  
+      <li data-testid="word-count">palabras</li>
+      <li data-testid="character-count">contador de caracteres</li>
+      <li data-testid="character-no-spaces-count">contador de caracteres sin espacio</li>
+      <li data-testid="number-count">contador de números</li>
+      <li data-testid="number-sum">suma de números</li>
+      <li data-testid="word-length-average">promedio</li>
+
+  
+ 
+      
+    </ul>
+    
+  </section>
+  <section>
+  <center>
+  <textarea name="user-input"placeholder = "Bienvenido a este espacio del saber!" ></textarea>
+  </section>
+  <section>
+  <button id= "reset-button">Limpiar</button>
+  
+  </section>  
+  
+</main>
+
+
+<footer>
+  <p>
+    
+    Laura Beltrán
+  </center>
+  </p>
+</footer>
+    <script src="index.js" type="module"></script> 
+    </body>
 </html>
