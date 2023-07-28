@@ -38,22 +38,22 @@ const cleaner = document.querySelector("#reset-button")
 cleaner.addEventListener("click", () => {
 
   const wordCountContainer = document. querySelector ("[data-testid='word-count']")
-  wordCountContainer.innerHTML = "Palabras";
+  wordCountContainer.innerHTML = "Palabras:";
   
   const characterwordContainer = document. querySelector ("[data-testid='character-count']")
-  characterwordContainer.innerHTML = "contador de caracteres";
+  characterwordContainer.innerHTML = "contador de caracteres:";
 
   const Charactersinespacio  = document. querySelector ("[data-testid='character-no-spaces-count']")
-  Charactersinespacio .innerHTML = "contador de caracteres sin espacio";
+  Charactersinespacio .innerHTML = "contador de caracteres sin espacio:";
 
   const NumberContiner = document. querySelector ("[data-testid='number-count']")
-  NumberContiner.innerHTML = "contador de numeros";
+  NumberContiner.innerHTML = "contador de numeros:";
 
   const NumberSumar = document. querySelector ("[data-testid='number-sum']")
-  NumberSumar.innerHTML = "suma";
+  NumberSumar.innerHTML = "suma:";
 
   const WordAverage = document. querySelector ("[data-testid='word-length-average']")
-  WordAverage .innerHTML = "Longitud";
+  WordAverage .innerHTML = "Longitud:";
 
   textarea.value = "";
 
