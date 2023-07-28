@@ -5,10 +5,11 @@
 
 
     <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>Analizer</title>
+           <title>Analizer</title>
        
   </head>
     <body>
+      <div id="container">
 
 <main>
   <header>
@@ -18,20 +19,21 @@
   </header>
   <section>
     
-    <ul>
+    <ul class="ul-list" >
       
-      <li data-testid="word-count">palabras</li>
-      <li data-testid="character-count">contador de caracteres</li>
-      <li data-testid="character-no-spaces-count">contador de caracteres sin espacio</li>
-      <li data-testid="number-count">contador de números</li>
-      <li data-testid="number-sum">suma de números</li>
-      <li data-testid="word-length-average">promedio</li>
+      <li class="ul-list" data-testid="word-count">palabras</li>
+      <li class="ul-list" data-testid="character-count">contador de caracteres</li>
+      <li class="ul-list" data-testid="character-no-spaces-count">contador de caracteres sin espacio</li>
+      <li class="ul-list" data-testid="number-count">contador de números</li>
+      <li class="ul-list" data-testid="number-sum">suma de números</li>
+      <li class="ul-list" data-testid="word-length-average">promedio</li>
     
     </ul>
     
   </section>
+
   <section>
-  <textarea name="user-input"placeholder = "Bienvenido a este espacio del saber!" ></textarea>
+  <textarea name="user-input" placeholder = "Bienvenido a este espacio del saber!" ></textarea>
   </section>
   <section>
   <button id= "reset-button">Limpiar</button>
@@ -49,5 +51,6 @@
   </p>
 </footer>
     <script src="index.js" type="module"></script> 
+  </div>
     </body>
 </html>

@@ -1,58 +1,55 @@
-
-h1
-{ 
-
-text-align:center;
-background-image:linear-gradient(to left top, #e996c5, #dd93d0, #cd92dc, #b792e7, #9a94f0, #7aa0fa, #52abff, #00b5ff, #00c9ff, #00dbff, #1eebf9, #5ffbf1);
-color: rgb(58, 77, 58);
-text-align:center;
-font-family: 'Algerian';
+header,
+footer {
+  width: 100%;
 }
 
-h2
-{
-text-align:center;
-background-image:linear-gradient(to left top, #e996c5, #dd93d0, #cd92dc, #b792e7, #9a94f0, #7aa0fa, #52abff, #00b5ff, #00c9ff, #00dbff, #1eebf9, #5ffbf1);
-color:rgb(59, 108, 155);
-text-align:center;
-font-family: 'Aharoni';
+h1 {
+
+  text-align: center;
+  background-image: linear-gradient(to left top, #e996c5, #dd93d0, #cd92dc, #b792e7, #9a94f0, #7aa0fa, #52abff, #00b5ff, #00c9ff, #00dbff, #1eebf9, #5ffbf1);
+  color: rgb(58, 77, 58);
+  text-align: center;
+  font-family: 'Algerian';
+}
+
+h2 {
+
+  text-align: center;
+  background-image: linear-gradient(to left top, #e996c5, #dd93d0, #cd92dc, #b792e7, #9a94f0, #7aa0fa, #52abff, #00b5ff, #00c9ff, #00dbff, #1eebf9, #5ffbf1);
+  color: rgb(59, 108, 155);
+  text-align: center;
+  font-family: 'Aharoni';
 
 }
 
-body
-
-{
+body {
   background-image: linear-gradient(to left top, #41e0df, #70e4e6, #93e8ec, #b1ecf0, #cceff3, #c6e1e4, #bfd4d5, #b9c6c7, #94a5a6, #708585, #4e6766, #2e4a48);
-  
+
 }
 
- section
-
- {
+section {
   color: rgb(59, 23, 68);
-  text-align:center;
+  text-align: center;
   font-family: 'Broadway;
+
 }
 
-  textarea
-
-  {
+textarea[name="user-input"] {
   box-sizing: content-box;
-  width:400px;
-  height:100px;
+  width: 400px;
+  height: 100px;
 
-  }
+}
 
-  button
-  
-{ background-color:rgb(22, 20, 22);
+#reset-button {
+  background-color: rgb(22, 20, 22);
   color: blue;
 
 }
 
-ul
-{list-style-type: none;
+ul,.ul-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 
 }
- 
-
