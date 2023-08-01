@@ -27,7 +27,7 @@ const analyzer = {
     Math.round(suma/ text.split(" ").length)
     const roundout = Math.round(suma/ text.split(" ").length)
 
-    return roundout
+    return Number(roundout) 
     
 
   },
