@@ -13,23 +13,23 @@ textarea.addEventListener( "keyup", ( ) => {
 
   const characterwordContainer = document.querySelector( "[data-testid='character-count']" )
   const characterCount = analyzer.getCharacterCount( text );
-  characterwordContainer.innerHTML = "contador de caracteres: " + characterCount
+  characterwordContainer.innerHTML = "Caracteres: " + characterCount
 
   const Charactersinespacio = document.querySelector( "[data-testid='character-no-spaces-count']" )
   const CharactersinespacioCount = analyzer.getCharacterCountExcludingSpaces (text);
-  Charactersinespacio .innerHTML = "contador de caracteres sin espacio: " + CharactersinespacioCount
+  Charactersinespacio .innerHTML = "Caracteres Sin Espacios: " + CharactersinespacioCount
 
   const NumberContiner = document.querySelector( "[data-testid='number-count']" )
   const Numbercount= analyzer.getNumberCount( text );
-  NumberContiner.innerHTML = "contador de numeros: " + Numbercount
+  NumberContiner.innerHTML = "Números: " + Numbercount
 
   const NumberSumar = document.querySelector( "[data-testid='number-sum']" )
   const Numbersuma= analyzer.getNumberSum( text );
-  NumberSumar.innerHTML = "suma: " + Numbersuma
+  NumberSumar.innerHTML = "Suma números: " + Numbersuma
 
   const WordAverage = document.querySelector( "[data-testid='word-length-average']" )
   const wordlengthaverage= analyzer.getAverageWordLength( text );
-  WordAverage.innerHTML = "Longitud: " + wordlengthaverage
+  WordAverage.innerHTML = "Longitud promedio palabra: " + wordlengthaverage
   
 } ) 
 
@@ -38,22 +38,22 @@ const cleaner = document.getElementById("reset-button")
 cleaner.addEventListener("click", () => {
 
   const wordCountContainer = document. querySelector ("[data-testid='word-count']")
-  wordCountContainer.innerHTML = "Palabras:";
+  wordCountContainer.innerHTML = "Palabras";
   
   const characterwordContainer = document. querySelector ("[data-testid='character-count']")
-  characterwordContainer.innerHTML = "contador de caracteres:";
+  characterwordContainer.innerHTML = "Caracteres";
 
   const Charactersinespacio  = document. querySelector ("[data-testid='character-no-spaces-count']")
-  Charactersinespacio .innerHTML = "contador de caracteres sin espacio:";
+  Charactersinespacio .innerHTML = "Caracteres Sin Espacios";
 
   const NumberContiner = document. querySelector ("[data-testid='number-count']")
-  NumberContiner.innerHTML = "contador de numeros:";
+  NumberContiner.innerHTML = "Números";
 
   const NumberSumar = document. querySelector ("[data-testid='number-sum']")
-  NumberSumar.innerHTML = "suma:";
+  NumberSumar.innerHTML = "Suma números";
 
   const WordAverage = document. querySelector ("[data-testid='word-length-average']")
-  WordAverage .innerHTML = "Longitud:";
+  WordAverage .innerHTML = "Longitud promedio palabra";
 
   textarea.value = "";
 

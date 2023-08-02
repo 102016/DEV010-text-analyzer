@@ -2,51 +2,48 @@
 
 <html>
   <head>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <title>Analizer</title>
-       
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Analizer</title>
   </head>
   <body>
-  <div id="container">
+    <div id="container">
+      <main>
+        <header>
+          <h1>...Analiza los textos...</h1>
+          <h2>¡ingresa la informacion que deseas evaluar!</h2>
+        </header>
+        <section>
+          <ul class="ul-list">
+            <li class="ul-list" data-testid="word-count">Palabras</li>
+            <li class="ul-list" data-testid="character-count">Caracteres</li>
+            <li class="ul-list" data-testid="character-no-spaces-count">
+              Caracteres Sin Espacios
+            </li>
+            <li class="ul-list" data-testid="number-count">Números</li>
+            <li class="ul-list" data-testid="number-sum">Suma números</li>
+            <li class="ul-list" data-testid="word-length-average">
+              Longitud promedio palabra
+            </li>
+          </ul>
+        </section>
 
-<main>
-  <header>
-  <h1>...Analiza los textos...</h1>
-  <h2>¡ingresa la informacion que deseas evaluar!</h2>
+        <section>
+          <textarea
+            name="user-input"
+            placeholder="Bienvenido a este espacio del saber!"
+          ></textarea>
+        </section>
+        <section>
+          <button id="reset-button">Limpiar</button>
+        </section>
+      </main>
 
-  </header>
-  <section>
-    <ul class="ul-list" >
-  
-    <li class="ul-list" data-testid="word-count">palabras</li>
-    <li class="ul-list" data-testid="character-count">contador de caracteres</li>
-    <li class="ul-list" data-testid="character-no-spaces-count">contador de caracteres sin espacio</li>
-    <li class="ul-list" data-testid="number-count">contador de números</li>
-    <li class="ul-list" data-testid="number-sum">suma de números</li>
-    <li class="ul-list" data-testid="word-length-average">promedio</li>
-    
-    </ul>
-    
-  </section>
-
-  <section>
-  <textarea name="user-input" placeholder = "Bienvenido a este espacio del saber!" ></textarea>
-  </section>
-  <section>
-  <button id= "reset-button">Limpiar</button>
-  
-  </section>  
-  
-</main>
-
-<footer>
-  <p>
-  <center>
-  Laura Beltrán
-  </center>
-  </p>
-</footer>
-  <script src="index.js" type="module"></script> 
-  </div>
+      <footer>
+        <p>
+          <center>Laura Beltrán</center>
+        </p>
+      </footer>
+      <script src="index.js" type="module"></script>
+    </div>
   </body>
 </html>
